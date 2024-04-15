@@ -1,5 +1,5 @@
 /* font-family: "Work Sans", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #898798;
-  --primary-color: #6C55F9;
+  --primary-color: #6c55f9;
   --primary-invert-color: #645f88;
 }
 .container {
@@ -49,7 +49,7 @@ a {
 }
 .topbar .logo {
   font-weight: 600;
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   color: #000;
   letter-spacing: -1px;
 }
@@ -93,7 +93,7 @@ a {
   margin: 0 12px;
   font-weight: 400;
   color: rgba(100, 95, 136, 0.74);
-  transition: color .2s;
+  transition: color 0.2s;
 }
 .navbar a:not(.btn),
 .navbar a:not(.btn):focus {
@@ -125,7 +125,7 @@ a {
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.08);
     padding: 20px;
     transform: translateX(calc(-100% - 20px));
-    transition: transform .3s;
+    transition: transform 0.3s;
   }
 
   .navbar a {
@@ -155,7 +155,7 @@ a {
   color: #fff;
   letter-spacing: -0.5px;
   border-radius: 4px;
-  transition: background-color .2s, color .2s, border .2s;
+  transition: background-color 0.2s, color 0.2s, border 0.2s;
 }
 .btn.btn-primary {
   background-color: var(--primary-color);
